@@ -24,17 +24,25 @@ Memory Management
 
 How to Run
 
-Clone the repository
-move into the repository
-clone the openCV repository into it (you can use command :: git clone git@github.com:opencv/opencv.git opencv/)
-mkdir -p build && cd build
-cmake ../opencv (assumong that the name of the folder in which the open cv code has been cloned is called opencv)
-make -j4  
-cd ..
-cmake .
-./scanner
+1)Clone the repository
 
-the program will ask the name of the file which you want to run. The image file to run must be placed within the images folder and full name (with extension) must be use. Currently I have kept a few sample files in there.
+2)move into the repository
+
+3)clone the openCV repository into it (you can use command :: git clone git@github.com:opencv/opencv.git opencv/)
+
+4)mkdir -p build && cd build
+
+5)cmake ../opencv (assumong that the name of the folder in which the open cv code has been cloned is called opencv)
+
+6)make -j4  
+
+7)cd ..
+
+8)cmake .
+
+9)./scanner
+
+the program will ask the name of the file which you want to run. The image file to run must be placed within the images folder and full name (with extension) must be used. Currently I have kept a few sample files in there.
 below attached is a screenshot of the program being run
 
 ![WhatsApp Image 2022-09-10 at 11 39 15 PM](https://user-images.githubusercontent.com/51983729/189496320-ae6b802a-39ac-4e1c-8f1e-89ddb3237c89.jpeg)
