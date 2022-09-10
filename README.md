@@ -9,7 +9,9 @@ Rubic Points Specified
 Loops, Functions, I/O
 
 1.The project demonstrates an understanding of C++ functions and control structures .:: The program uses multiple loops and if statements to control the flow of the code.
+
 2.The project reads data from the file and process the data, or the program writes the data to a file .:: the program reads data from an image and writes data to another image after processing it.
+
 3.The project accepts user input and processes the input .:: the program takes as input the name of the image it has to scan from within the images folder and uses it to read the specified image.
 
 Object Oriented Programming
