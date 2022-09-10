@@ -41,4 +41,5 @@ below attached is a screenshot of the program being run
 
 the scanned image will be stored in the working directory.
 
+![WhatsApp Image 2022-09-10 at 11 53 28 PM](https://user-images.githubusercontent.com/51983729/189496756-33372130-03aa-4f56-b275-4f61cd0bf733.jpeg)
 
