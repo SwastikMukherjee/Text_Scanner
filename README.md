@@ -40,7 +40,9 @@ How to Run
 
 8)cmake .
 
-9)./scanner
+9)make
+
+10)./scanner
 
 the program will ask the name of the file which you want to run. The image file to run must be placed within the images folder and full name (with extension) must be used. Currently I have kept a few sample files in there.
 below attached is a screenshot of the program being run
