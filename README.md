@@ -28,21 +28,43 @@ How to Run
 
 2)move into the repository
 
-3)clone the openCV repository into it (you can use command :: git clone git@github.com:opencv/opencv.git opencv/)
+3)clone the openCV repository into it (you can use command :: git clone git@github.com:opencv/opencv.git opencv/ or in visual studios press ctrl+shift+p to open the command palette and type Git Clone. It will as for the URL to clone from. Use the URL :: https://github.com/opencv/opencv.git. It will then ask where to store the cloned repository. Move inside the Text_Scanner folder and press select repository.)
+After cloning it should look like this.
+
+![WhatsApp Image 2022-09-11 at 7 23 37 PM](https://user-images.githubusercontent.com/51983729/189531534-6d33d688-1559-4be6-b331-1ae7e71c02d7.jpeg)
+
 
 4)mkdir -p build && cd build
 
 5)cmake ../opencv (assumong that the name of the folder in which the open cv code has been cloned is called opencv)
 
+
+![WhatsApp Image 2022-09-11 at 7 23 37 PM (1)](https://user-images.githubusercontent.com/51983729/189531590-e3ee0638-2a23-4d9d-b2df-de0cd682c418.jpeg)
+
+
 6)make -j4  
+
+![WhatsApp Image 2022-09-11 at 7 23 37 PM (2)](https://user-images.githubusercontent.com/51983729/189531669-7e40b496-2b1a-44bd-97e5-10f660a16cab.jpeg)
+
+
+6.5)sudo make install
+
+![WhatsApp Image 2022-09-11 at 7 23 37 PM (3)](https://user-images.githubusercontent.com/51983729/189531725-4d7874ce-7433-425d-865b-54100263d5f6.jpeg)
+
 
 7)cd ..
 
 8)cmake .
 
+![WhatsApp Image 2022-09-11 at 7 23 37 PM (4)](https://user-images.githubusercontent.com/51983729/189531762-7de4cdf9-0212-4eab-9d7e-0ceb96b788e0.jpeg)
+
+
 9)make
 
 10)./scanner
+
+![WhatsApp Image 2022-09-11 at 7 23 37 PM (6)](https://user-images.githubusercontent.com/51983729/189531786-9e7434cb-0b25-4f3f-9921-5a85f92ee4d4.jpeg)
+
 
 the program will ask the name of the file which you want to run. The image file to run must be placed within the images folder and full name (with extension) must be used. Currently I have kept a few sample files in there.
 below attached is a screenshot of the program being run
